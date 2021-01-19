@@ -24,7 +24,7 @@ import background from "assets/img/techbackground4.gif";
 import PusheenGame2 from "../../assets/img/projects/PusheenGame2.png";
 import FirstYear from "../../assets/img/projects/firstyear1.png";
 import Pokebuilds from "../../assets/img/projects/pokebuilds1.png";
-import AllPagesPDFViewer from "components/Pdf/all-pages.js";
+//import AllPagesPDFViewer from "components/Pdf/all-pages.js";
 import Resume from "../../assets/pdfs/Resume.pdf";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
@@ -291,8 +291,8 @@ export default function ProfilePage(props) {
                       tabContent: (
                         <GridContainer justify="center">
                           <GridItem xs={12} sm={12} md={4}>
-                            <div className="all-page-container">
-                              <AllPagesPDFViewer pdf={Resume} />
+                            <div className="Resume-container">
+                              <a href={Resume}>Click here for my pdf</a>
                             </div>
                           </GridItem>
                         </GridContainer>
