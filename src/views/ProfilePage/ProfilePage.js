@@ -239,7 +239,7 @@ export default function ProfilePage(props) {
                             />
                             <CardBody>
                               <h4 className={cardClasses.cardTitle}>
-                                Pusheen Power Clash!
+                                First Steps
                               </h4>
                               <p>
                                 FullStack CRUD personal memoir app, deployed on
